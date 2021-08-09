@@ -1,0 +1,1281 @@
+-- Made by Ghoul Scripts
+-- Subscribe to my YouTube channel : https://www.youtube.com/channel/UCqiDt4odmGjSGfj58XX5oAg
+
+local PrisonLife = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local RoundedBG = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local Separator = Instance.new("TextButton")
+local RoundedBG_2 = Instance.new("UICorner")
+local Pages = Instance.new("Frame")
+local Page1 = Instance.new("Frame")
+local GrabAK47 = Instance.new("TextButton")
+local RoundedBG_3 = Instance.new("UICorner")
+local TpSafePlace = Instance.new("TextButton")
+local RoundedBG_4 = Instance.new("UICorner")
+local FastM9 = Instance.new("TextButton")
+local RoundedBG_5 = Instance.new("UICorner")
+local TpCrimBase = Instance.new("TextButton")
+local RoundedBG_6 = Instance.new("UICorner")
+local ButtonName = Instance.new("TextButton")
+local RoundedBG_7 = Instance.new("UICorner")
+local ButtonName_2 = Instance.new("TextButton")
+local RoundedBG_8 = Instance.new("UICorner")
+local FastRemington870 = Instance.new("TextButton")
+local RoundedBG_9 = Instance.new("UICorner")
+local FastAK47 = Instance.new("TextButton")
+local RoundedBG_10 = Instance.new("UICorner")
+local GrabRemington870 = Instance.new("TextButton")
+local RoundedBG_11 = Instance.new("UICorner")
+local Page = Instance.new("TextButton")
+local RoundedBG_12 = Instance.new("UICorner")
+local TpYard = Instance.new("TextButton")
+local RoundedBG_13 = Instance.new("UICorner")
+local GrabM9 = Instance.new("TextButton")
+local RoundedBG_14 = Instance.new("UICorner")
+local TpArmory = Instance.new("TextButton")
+local RoundedBG_15 = Instance.new("UICorner")
+local PageNumber = Instance.new("TextButton")
+local Page2 = Instance.new("Frame")
+local ButtonName_3 = Instance.new("TextButton")
+local RoundedBG_16 = Instance.new("UICorner")
+local ButtonName_4 = Instance.new("TextButton")
+local RoundedBG_17 = Instance.new("UICorner")
+local ButtonName_5 = Instance.new("TextButton")
+local RoundedBG_18 = Instance.new("UICorner")
+local ButtonName_6 = Instance.new("TextButton")
+local RoundedBG_19 = Instance.new("UICorner")
+local ButtonName_7 = Instance.new("TextButton")
+local RoundedBG_20 = Instance.new("UICorner")
+local ButtonName_8 = Instance.new("TextButton")
+local RoundedBG_21 = Instance.new("UICorner")
+local ButtonName_9 = Instance.new("TextButton")
+local RoundedBG_22 = Instance.new("UICorner")
+local ButtonName_10 = Instance.new("TextButton")
+local RoundedBG_23 = Instance.new("UICorner")
+local ButtonName_11 = Instance.new("TextButton")
+local RoundedBG_24 = Instance.new("UICorner")
+local ButtonName_12 = Instance.new("TextButton")
+local RoundedBG_25 = Instance.new("UICorner")
+local ButtonName_13 = Instance.new("TextButton")
+local RoundedBG_26 = Instance.new("UICorner")
+local ButtonName_14 = Instance.new("TextButton")
+local RoundedBG_27 = Instance.new("UICorner")
+local PageNumber_2 = Instance.new("TextButton")
+local Page_2 = Instance.new("TextButton")
+local RoundedBG_28 = Instance.new("UICorner")
+local Page_3 = Instance.new("TextButton")
+local RoundedBG_29 = Instance.new("UICorner")
+local Page3 = Instance.new("Frame")
+local ButtonName_15 = Instance.new("TextButton")
+local RoundedBG_30 = Instance.new("UICorner")
+local ButtonName_16 = Instance.new("TextButton")
+local RoundedBG_31 = Instance.new("UICorner")
+local ButtonName_17 = Instance.new("TextButton")
+local RoundedBG_32 = Instance.new("UICorner")
+local ButtonName_18 = Instance.new("TextButton")
+local RoundedBG_33 = Instance.new("UICorner")
+local ButtonName_19 = Instance.new("TextButton")
+local RoundedBG_34 = Instance.new("UICorner")
+local ButtonName_20 = Instance.new("TextButton")
+local RoundedBG_35 = Instance.new("UICorner")
+local ButtonName_21 = Instance.new("TextButton")
+local RoundedBG_36 = Instance.new("UICorner")
+local ButtonName_22 = Instance.new("TextButton")
+local RoundedBG_37 = Instance.new("UICorner")
+local ButtonName_23 = Instance.new("TextButton")
+local RoundedBG_38 = Instance.new("UICorner")
+local ButtonName_24 = Instance.new("TextButton")
+local RoundedBG_39 = Instance.new("UICorner")
+local ButtonName_25 = Instance.new("TextButton")
+local RoundedBG_40 = Instance.new("UICorner")
+local ButtonName_26 = Instance.new("TextButton")
+local RoundedBG_41 = Instance.new("UICorner")
+local PageNumber_3 = Instance.new("TextButton")
+local Page_4 = Instance.new("TextButton")
+local RoundedBG_42 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local RoundedBG_43 = Instance.new("UICorner")
+
+--Properties:
+
+PrisonLife.Name = "Prison Life"
+PrisonLife.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Main.Name = "Main"
+Main.Parent = PrisonLife
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Main.Position = UDim2.new(0.0826336741, 0, 0.100787386, 0)
+Main.Size = UDim2.new(0, 550, 0, 310)
+
+RoundedBG.CornerRadius = UDim.new(0, 9)
+RoundedBG.Name = "RoundedBG"
+RoundedBG.Parent = Main
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Title.Position = UDim2.new(0.302727282, 0, -0.0180645362, 0)
+Title.Size = UDim2.new(0.391818166, 0, 0.130967781, 0)
+Title.ZIndex = 2
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "Ghoul Hub - Prison Life"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+Title.TextStrokeTransparency = 0.000
+Title.TextWrapped = true
+
+Version.Name = "Version"
+Version.Parent = Main
+Version.BackgroundColor3 = Color3.fromRGB(16, 148, 163)
+Version.BackgroundTransparency = 1.000
+Version.BorderColor3 = Color3.fromRGB(16, 148, 163)
+Version.Position = UDim2.new(0.319999993, 0, 0.0599999987, 0)
+Version.Size = UDim2.new(0.360000014, 0, 0.119999997, 0)
+Version.ZIndex = 2
+Version.Font = Enum.Font.SourceSansBold
+Version.Text = "By Ghoul Scripts"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextSize = 14.000
+Version.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+Version.TextStrokeTransparency = 0.000
+
+Separator.Name = "Separator"
+Separator.Parent = Main
+Separator.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Separator.BorderSizePixel = 0
+Separator.Position = UDim2.new(0.00363636366, 10, 1.80279565, -280)
+Separator.Size = UDim2.new(0, 526, 0, 19)
+Separator.ZIndex = 7
+Separator.Font = Enum.Font.SourceSansBold
+Separator.Text = ""
+Separator.TextColor3 = Color3.fromRGB(61, 61, 61)
+Separator.TextSize = 18.000
+Separator.TextWrapped = true
+
+RoundedBG_2.CornerRadius = UDim.new(0, 9)
+RoundedBG_2.Name = "RoundedBG"
+RoundedBG_2.Parent = Separator
+
+Pages.Name = "Pages"
+Pages.Parent = Main
+Pages.Active = true
+Pages.BackgroundColor3 = Color3.fromRGB(255, 255, 235)
+Pages.BackgroundTransparency = 1.000
+Pages.BorderSizePixel = 0
+Pages.ClipsDescendants = true
+Pages.Position = UDim2.new(0, -2, 0, 2)
+Pages.Selectable = true
+Pages.Size = UDim2.new(1, 0, 1, 0)
+Pages.ZIndex = 2
+
+Page1.Name = "Page1"
+Page1.Parent = Pages
+Page1.Active = true
+Page1.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Page1.BackgroundTransparency = 1.000
+Page1.BorderSizePixel = 0
+Page1.Position = UDim2.new(0, 0, 0.300000012, 0)
+Page1.Size = UDim2.new(1, 0, 0.600000024, 0)
+
+GrabAK47.Name = "GrabAK47"
+GrabAK47.Parent = Page1
+GrabAK47.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+GrabAK47.BorderSizePixel = 0
+GrabAK47.Position = UDim2.new(0.501999974, 10, 1.27499998, -280)
+GrabAK47.Size = UDim2.new(0, 110, 0, 48)
+GrabAK47.ZIndex = 7
+GrabAK47.Font = Enum.Font.SourceSansBold
+GrabAK47.Text = "AK-47"
+GrabAK47.TextColor3 = Color3.fromRGB(61, 61, 61)
+GrabAK47.TextSize = 18.000
+GrabAK47.TextWrapped = true
+
+RoundedBG_3.CornerRadius = UDim.new(0, 9)
+RoundedBG_3.Name = "RoundedBG"
+RoundedBG_3.Parent = GrabAK47
+
+TpSafePlace.Name = "TpSafePlace"
+TpSafePlace.Parent = Page1
+TpSafePlace.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+TpSafePlace.BorderSizePixel = 0
+TpSafePlace.Position = UDim2.new(0.501999974, 10, 1.875, -280)
+TpSafePlace.Size = UDim2.new(0, 110, 0, 48)
+TpSafePlace.ZIndex = 7
+TpSafePlace.Font = Enum.Font.SourceSansBold
+TpSafePlace.Text = "Safe Place TP"
+TpSafePlace.TextColor3 = Color3.fromRGB(61, 61, 61)
+TpSafePlace.TextSize = 18.000
+TpSafePlace.TextWrapped = true
+
+RoundedBG_4.CornerRadius = UDim.new(0, 9)
+RoundedBG_4.Name = "RoundedBG"
+RoundedBG_4.Parent = TpSafePlace
+
+FastM9.Name = "FastM9"
+FastM9.Parent = Page1
+FastM9.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+FastM9.BorderSizePixel = 0
+FastM9.Position = UDim2.new(0.00400000019, 10, 1.57500005, -280)
+FastM9.Size = UDim2.new(0, 110, 0, 48)
+FastM9.ZIndex = 7
+FastM9.Font = Enum.Font.SourceSansBold
+FastM9.Text = "Fast M9"
+FastM9.TextColor3 = Color3.fromRGB(61, 61, 61)
+FastM9.TextSize = 18.000
+FastM9.TextWrapped = true
+
+RoundedBG_5.CornerRadius = UDim.new(0, 9)
+RoundedBG_5.Name = "RoundedBG"
+RoundedBG_5.Parent = FastM9
+
+TpCrimBase.Name = "TpCrimBase"
+TpCrimBase.Parent = Page1
+TpCrimBase.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+TpCrimBase.BorderSizePixel = 0
+TpCrimBase.Position = UDim2.new(0.75999999, 10, 1.875, -280)
+TpCrimBase.Size = UDim2.new(0, 110, 0, 48)
+TpCrimBase.ZIndex = 7
+TpCrimBase.Font = Enum.Font.SourceSansBold
+TpCrimBase.Text = "Criminal Base TP"
+TpCrimBase.TextColor3 = Color3.fromRGB(61, 61, 61)
+TpCrimBase.TextSize = 18.000
+TpCrimBase.TextWrapped = true
+
+RoundedBG_6.CornerRadius = UDim.new(0, 9)
+RoundedBG_6.Name = "RoundedBG"
+RoundedBG_6.Parent = TpCrimBase
+
+ButtonName.Name = "ButtonName"
+ButtonName.Parent = Page1
+ButtonName.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName.BorderSizePixel = 0
+ButtonName.Position = UDim2.new(0.75999999, 10, 1.57500005, -280)
+ButtonName.Size = UDim2.new(0, 110, 0, 48)
+ButtonName.ZIndex = 7
+ButtonName.Font = Enum.Font.SourceSansBold
+ButtonName.Text = "Script here"
+ButtonName.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName.TextSize = 18.000
+ButtonName.TextWrapped = true
+
+RoundedBG_7.CornerRadius = UDim.new(0, 9)
+RoundedBG_7.Name = "RoundedBG"
+RoundedBG_7.Parent = ButtonName
+
+ButtonName_2.Name = "ButtonName"
+ButtonName_2.Parent = Page1
+ButtonName_2.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_2.BorderSizePixel = 0
+ButtonName_2.Position = UDim2.new(0.75999999, 10, 1.27499998, -280)
+ButtonName_2.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_2.ZIndex = 7
+ButtonName_2.Font = Enum.Font.SourceSansBold
+ButtonName_2.Text = "Script here"
+ButtonName_2.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_2.TextSize = 18.000
+ButtonName_2.TextWrapped = true
+
+RoundedBG_8.CornerRadius = UDim.new(0, 9)
+RoundedBG_8.Name = "RoundedBG"
+RoundedBG_8.Parent = ButtonName_2
+
+FastRemington870.Name = "FastRemington870"
+FastRemington870.Parent = Page1
+FastRemington870.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+FastRemington870.BorderSizePixel = 0
+FastRemington870.Position = UDim2.new(0.254999995, 10, 1.57500005, -280)
+FastRemington870.Size = UDim2.new(0, 110, 0, 48)
+FastRemington870.ZIndex = 7
+FastRemington870.Font = Enum.Font.SourceSansBold
+FastRemington870.Text = "Fast Remington 870"
+FastRemington870.TextColor3 = Color3.fromRGB(61, 61, 61)
+FastRemington870.TextSize = 18.000
+FastRemington870.TextWrapped = true
+
+RoundedBG_9.CornerRadius = UDim.new(0, 9)
+RoundedBG_9.Name = "RoundedBG"
+RoundedBG_9.Parent = FastRemington870
+
+FastAK47.Name = "FastAK47"
+FastAK47.Parent = Page1
+FastAK47.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+FastAK47.BorderSizePixel = 0
+FastAK47.Position = UDim2.new(0.501999974, 10, 1.57500005, -280)
+FastAK47.Size = UDim2.new(0, 110, 0, 48)
+FastAK47.ZIndex = 7
+FastAK47.Font = Enum.Font.SourceSansBold
+FastAK47.Text = "Fast AK-47"
+FastAK47.TextColor3 = Color3.fromRGB(61, 61, 61)
+FastAK47.TextSize = 18.000
+FastAK47.TextWrapped = true
+
+RoundedBG_10.CornerRadius = UDim.new(0, 9)
+RoundedBG_10.Name = "RoundedBG"
+RoundedBG_10.Parent = FastAK47
+
+GrabRemington870.Name = "GrabRemington870"
+GrabRemington870.Parent = Page1
+GrabRemington870.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+GrabRemington870.BorderSizePixel = 0
+GrabRemington870.Position = UDim2.new(0.254999995, 10, 1.27499998, -280)
+GrabRemington870.Size = UDim2.new(0, 110, 0, 48)
+GrabRemington870.ZIndex = 7
+GrabRemington870.Font = Enum.Font.SourceSansBold
+GrabRemington870.Text = "Remington 870"
+GrabRemington870.TextColor3 = Color3.fromRGB(61, 61, 61)
+GrabRemington870.TextSize = 18.000
+GrabRemington870.TextWrapped = true
+
+RoundedBG_11.CornerRadius = UDim.new(0, 9)
+RoundedBG_11.Name = "RoundedBG"
+RoundedBG_11.Parent = GrabRemington870
+
+Page.Name = "Page>"
+Page.Parent = Page1
+Page.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Page.BorderSizePixel = 0
+Page.Position = UDim2.new(0.785999954, 10, 1.04301071, -280)
+Page.Size = UDim2.new(0, 44, 0, 32)
+Page.ZIndex = 7
+Page.Font = Enum.Font.SourceSansBold
+Page.Text = ">"
+Page.TextColor3 = Color3.fromRGB(61, 61, 61)
+Page.TextSize = 22.000
+Page.TextWrapped = true
+
+RoundedBG_12.CornerRadius = UDim.new(0, 9)
+RoundedBG_12.Name = "RoundedBG"
+RoundedBG_12.Parent = Page
+
+TpYard.Name = "TpYard"
+TpYard.Parent = Page1
+TpYard.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+TpYard.BorderSizePixel = 0
+TpYard.Position = UDim2.new(0.00400000019, 10, 1.875, -280)
+TpYard.Size = UDim2.new(0, 110, 0, 48)
+TpYard.ZIndex = 7
+TpYard.Font = Enum.Font.SourceSansBold
+TpYard.Text = "Yard TP"
+TpYard.TextColor3 = Color3.fromRGB(61, 61, 61)
+TpYard.TextSize = 18.000
+TpYard.TextWrapped = true
+
+RoundedBG_13.CornerRadius = UDim.new(0, 9)
+RoundedBG_13.Name = "RoundedBG"
+RoundedBG_13.Parent = TpYard
+
+GrabM9.Name = "GrabM9"
+GrabM9.Parent = Page1
+GrabM9.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+GrabM9.BorderSizePixel = 0
+GrabM9.Position = UDim2.new(0.00400000019, 10, 1.27499998, -280)
+GrabM9.Size = UDim2.new(0, 110, 0, 48)
+GrabM9.ZIndex = 7
+GrabM9.Font = Enum.Font.SourceSansBold
+GrabM9.Text = "M9"
+GrabM9.TextColor3 = Color3.fromRGB(61, 61, 61)
+GrabM9.TextSize = 18.000
+GrabM9.TextWrapped = true
+
+RoundedBG_14.CornerRadius = UDim.new(0, 9)
+RoundedBG_14.Name = "RoundedBG"
+RoundedBG_14.Parent = GrabM9
+
+TpArmory.Name = "TpArmory"
+TpArmory.Parent = Page1
+TpArmory.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+TpArmory.BorderSizePixel = 0
+TpArmory.Position = UDim2.new(0.254999995, 10, 1.875, -280)
+TpArmory.Size = UDim2.new(0, 110, 0, 48)
+TpArmory.ZIndex = 7
+TpArmory.Font = Enum.Font.SourceSansBold
+TpArmory.Text = "Armory TP"
+TpArmory.TextColor3 = Color3.fromRGB(61, 61, 61)
+TpArmory.TextSize = 18.000
+TpArmory.TextWrapped = true
+
+RoundedBG_15.CornerRadius = UDim.new(0, 9)
+RoundedBG_15.Name = "RoundedBG"
+RoundedBG_15.Parent = TpArmory
+
+PageNumber.Name = "Page Number"
+PageNumber.Parent = Page1
+PageNumber.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageNumber.BackgroundTransparency = 1.000
+PageNumber.Position = UDim2.new(0.428636372, 10, 2.45220423, -280)
+PageNumber.Size = UDim2.new(0, 60, 0, 32)
+PageNumber.ZIndex = 8
+PageNumber.Font = Enum.Font.SourceSansBold
+PageNumber.Text = "Page 1"
+PageNumber.TextColor3 = Color3.fromRGB(61, 61, 61)
+PageNumber.TextSize = 22.000
+PageNumber.TextWrapped = true
+
+Page2.Name = "Page2"
+Page2.Parent = Pages
+Page2.Active = true
+Page2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Page2.BackgroundTransparency = 1.000
+Page2.BorderSizePixel = 0
+Page2.Position = UDim2.new(0, 0, 0.300000012, 0)
+Page2.Size = UDim2.new(1, 0, 0.600000024, 0)
+Page2.Visible = false
+
+ButtonName_3.Name = "ButtonName"
+ButtonName_3.Parent = Page2
+ButtonName_3.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_3.BorderSizePixel = 0
+ButtonName_3.Position = UDim2.new(0.501999974, 10, 1.27499998, -280)
+ButtonName_3.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_3.ZIndex = 7
+ButtonName_3.Font = Enum.Font.SourceSansBold
+ButtonName_3.Text = "Script here"
+ButtonName_3.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_3.TextSize = 18.000
+ButtonName_3.TextWrapped = true
+
+RoundedBG_16.CornerRadius = UDim.new(0, 9)
+RoundedBG_16.Name = "RoundedBG"
+RoundedBG_16.Parent = ButtonName_3
+
+ButtonName_4.Name = "ButtonName"
+ButtonName_4.Parent = Page2
+ButtonName_4.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_4.BorderSizePixel = 0
+ButtonName_4.Position = UDim2.new(0.75999999, 10, 1.27499998, -280)
+ButtonName_4.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_4.ZIndex = 7
+ButtonName_4.Font = Enum.Font.SourceSansBold
+ButtonName_4.Text = "Script here"
+ButtonName_4.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_4.TextSize = 18.000
+ButtonName_4.TextWrapped = true
+
+RoundedBG_17.CornerRadius = UDim.new(0, 9)
+RoundedBG_17.Name = "RoundedBG"
+RoundedBG_17.Parent = ButtonName_4
+
+ButtonName_5.Name = "ButtonName"
+ButtonName_5.Parent = Page2
+ButtonName_5.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_5.BorderSizePixel = 0
+ButtonName_5.Position = UDim2.new(0.501999974, 10, 1.875, -280)
+ButtonName_5.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_5.ZIndex = 7
+ButtonName_5.Font = Enum.Font.SourceSansBold
+ButtonName_5.Text = "Script here"
+ButtonName_5.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_5.TextSize = 18.000
+ButtonName_5.TextWrapped = true
+
+RoundedBG_18.CornerRadius = UDim.new(0, 9)
+RoundedBG_18.Name = "RoundedBG"
+RoundedBG_18.Parent = ButtonName_5
+
+ButtonName_6.Name = "ButtonName"
+ButtonName_6.Parent = Page2
+ButtonName_6.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_6.BorderSizePixel = 0
+ButtonName_6.Position = UDim2.new(0.00400000019, 10, 1.875, -280)
+ButtonName_6.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_6.ZIndex = 7
+ButtonName_6.Font = Enum.Font.SourceSansBold
+ButtonName_6.Text = "Script here"
+ButtonName_6.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_6.TextSize = 18.000
+ButtonName_6.TextWrapped = true
+
+RoundedBG_19.CornerRadius = UDim.new(0, 9)
+RoundedBG_19.Name = "RoundedBG"
+RoundedBG_19.Parent = ButtonName_6
+
+ButtonName_7.Name = "ButtonName"
+ButtonName_7.Parent = Page2
+ButtonName_7.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_7.BorderSizePixel = 0
+ButtonName_7.Position = UDim2.new(0.75999999, 10, 1.875, -280)
+ButtonName_7.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_7.ZIndex = 7
+ButtonName_7.Font = Enum.Font.SourceSansBold
+ButtonName_7.Text = "Script here"
+ButtonName_7.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_7.TextSize = 18.000
+ButtonName_7.TextWrapped = true
+
+RoundedBG_20.CornerRadius = UDim.new(0, 9)
+RoundedBG_20.Name = "RoundedBG"
+RoundedBG_20.Parent = ButtonName_7
+
+ButtonName_8.Name = "ButtonName"
+ButtonName_8.Parent = Page2
+ButtonName_8.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_8.BorderSizePixel = 0
+ButtonName_8.Position = UDim2.new(0.00400000019, 10, 1.27499998, -280)
+ButtonName_8.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_8.ZIndex = 7
+ButtonName_8.Font = Enum.Font.SourceSansBold
+ButtonName_8.Text = "Script here"
+ButtonName_8.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_8.TextSize = 18.000
+ButtonName_8.TextWrapped = true
+
+RoundedBG_21.CornerRadius = UDim.new(0, 9)
+RoundedBG_21.Name = "RoundedBG"
+RoundedBG_21.Parent = ButtonName_8
+
+ButtonName_9.Name = "ButtonName"
+ButtonName_9.Parent = Page2
+ButtonName_9.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_9.BorderSizePixel = 0
+ButtonName_9.Position = UDim2.new(0.501999974, 10, 1.57500005, -280)
+ButtonName_9.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_9.ZIndex = 7
+ButtonName_9.Font = Enum.Font.SourceSansBold
+ButtonName_9.Text = "Script here"
+ButtonName_9.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_9.TextSize = 18.000
+ButtonName_9.TextWrapped = true
+
+RoundedBG_22.CornerRadius = UDim.new(0, 9)
+RoundedBG_22.Name = "RoundedBG"
+RoundedBG_22.Parent = ButtonName_9
+
+ButtonName_10.Name = "ButtonName"
+ButtonName_10.Parent = Page2
+ButtonName_10.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_10.BorderSizePixel = 0
+ButtonName_10.Position = UDim2.new(0.00400000019, 10, 1.57500005, -280)
+ButtonName_10.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_10.ZIndex = 7
+ButtonName_10.Font = Enum.Font.SourceSansBold
+ButtonName_10.Text = "Script here"
+ButtonName_10.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_10.TextSize = 18.000
+ButtonName_10.TextWrapped = true
+
+RoundedBG_23.CornerRadius = UDim.new(0, 9)
+RoundedBG_23.Name = "RoundedBG"
+RoundedBG_23.Parent = ButtonName_10
+
+ButtonName_11.Name = "ButtonName"
+ButtonName_11.Parent = Page2
+ButtonName_11.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_11.BorderSizePixel = 0
+ButtonName_11.Position = UDim2.new(0.75999999, 10, 1.57500005, -280)
+ButtonName_11.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_11.ZIndex = 7
+ButtonName_11.Font = Enum.Font.SourceSansBold
+ButtonName_11.Text = "Script here"
+ButtonName_11.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_11.TextSize = 18.000
+ButtonName_11.TextWrapped = true
+
+RoundedBG_24.CornerRadius = UDim.new(0, 9)
+RoundedBG_24.Name = "RoundedBG"
+RoundedBG_24.Parent = ButtonName_11
+
+ButtonName_12.Name = "ButtonName"
+ButtonName_12.Parent = Page2
+ButtonName_12.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_12.BorderSizePixel = 0
+ButtonName_12.Position = UDim2.new(0.254999995, 10, 1.57500005, -280)
+ButtonName_12.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_12.ZIndex = 7
+ButtonName_12.Font = Enum.Font.SourceSansBold
+ButtonName_12.Text = "Script here"
+ButtonName_12.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_12.TextSize = 18.000
+ButtonName_12.TextWrapped = true
+
+RoundedBG_25.CornerRadius = UDim.new(0, 9)
+RoundedBG_25.Name = "RoundedBG"
+RoundedBG_25.Parent = ButtonName_12
+
+ButtonName_13.Name = "ButtonName"
+ButtonName_13.Parent = Page2
+ButtonName_13.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_13.BorderSizePixel = 0
+ButtonName_13.Position = UDim2.new(0.254999995, 10, 1.875, -280)
+ButtonName_13.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_13.ZIndex = 7
+ButtonName_13.Font = Enum.Font.SourceSansBold
+ButtonName_13.Text = "Script here"
+ButtonName_13.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_13.TextSize = 18.000
+ButtonName_13.TextWrapped = true
+
+RoundedBG_26.CornerRadius = UDim.new(0, 9)
+RoundedBG_26.Name = "RoundedBG"
+RoundedBG_26.Parent = ButtonName_13
+
+ButtonName_14.Name = "ButtonName"
+ButtonName_14.Parent = Page2
+ButtonName_14.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_14.BorderSizePixel = 0
+ButtonName_14.Position = UDim2.new(0.254999995, 10, 1.27499998, -280)
+ButtonName_14.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_14.ZIndex = 7
+ButtonName_14.Font = Enum.Font.SourceSansBold
+ButtonName_14.Text = "Script here"
+ButtonName_14.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_14.TextSize = 18.000
+ButtonName_14.TextWrapped = true
+
+RoundedBG_27.CornerRadius = UDim.new(0, 9)
+RoundedBG_27.Name = "RoundedBG"
+RoundedBG_27.Parent = ButtonName_14
+
+PageNumber_2.Name = "Page Number"
+PageNumber_2.Parent = Page2
+PageNumber_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageNumber_2.BackgroundTransparency = 1.000
+PageNumber_2.Position = UDim2.new(0.428636372, 10, 2.45220423, -280)
+PageNumber_2.Size = UDim2.new(0, 60, 0, 32)
+PageNumber_2.ZIndex = 7
+PageNumber_2.Font = Enum.Font.SourceSansBold
+PageNumber_2.Text = "Page 2"
+PageNumber_2.TextColor3 = Color3.fromRGB(61, 61, 61)
+PageNumber_2.TextSize = 22.000
+PageNumber_2.TextWrapped = true
+
+Page_2.Name = "Page<"
+Page_2.Parent = Page2
+Page_2.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Page_2.BorderSizePixel = 0
+Page_2.Position = UDim2.new(0.69599998, 10, 1.04301071, -280)
+Page_2.Size = UDim2.new(0, 44, 0, 32)
+Page_2.ZIndex = 7
+Page_2.Font = Enum.Font.SourceSansBold
+Page_2.Text = "<"
+Page_2.TextColor3 = Color3.fromRGB(61, 61, 61)
+Page_2.TextSize = 22.000
+Page_2.TextWrapped = true
+
+RoundedBG_28.CornerRadius = UDim.new(0, 9)
+RoundedBG_28.Name = "RoundedBG"
+RoundedBG_28.Parent = Page_2
+
+Page_3.Name = "Page>"
+Page_3.Parent = Page2
+Page_3.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Page_3.BorderSizePixel = 0
+Page_3.Position = UDim2.new(0.786000013, 10, 1.04299998, -280)
+Page_3.Size = UDim2.new(0, 44, 0, 32)
+Page_3.ZIndex = 7
+Page_3.Font = Enum.Font.SourceSansBold
+Page_3.Text = ">"
+Page_3.TextColor3 = Color3.fromRGB(61, 61, 61)
+Page_3.TextSize = 22.000
+Page_3.TextWrapped = true
+
+RoundedBG_29.CornerRadius = UDim.new(0, 9)
+RoundedBG_29.Name = "RoundedBG"
+RoundedBG_29.Parent = Page_3
+
+Page3.Name = "Page3"
+Page3.Parent = Pages
+Page3.Active = true
+Page3.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Page3.BackgroundTransparency = 1.000
+Page3.BorderSizePixel = 0
+Page3.Position = UDim2.new(0, 0, 0.300000012, 0)
+Page3.Size = UDim2.new(1, 0, 0.600000024, 0)
+Page3.Visible = false
+
+ButtonName_15.Name = "ButtonName"
+ButtonName_15.Parent = Page3
+ButtonName_15.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_15.Position = UDim2.new(0.75999999, 10, 1.875, -280)
+ButtonName_15.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_15.ZIndex = 7
+ButtonName_15.Font = Enum.Font.SourceSansBold
+ButtonName_15.Text = "Script here"
+ButtonName_15.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_15.TextSize = 18.000
+ButtonName_15.TextWrapped = true
+
+RoundedBG_30.CornerRadius = UDim.new(0, 9)
+RoundedBG_30.Name = "RoundedBG"
+RoundedBG_30.Parent = ButtonName_15
+
+ButtonName_16.Name = "ButtonName"
+ButtonName_16.Parent = Page3
+ButtonName_16.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_16.Position = UDim2.new(0.501999974, 10, 1.27499998, -280)
+ButtonName_16.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_16.ZIndex = 7
+ButtonName_16.Font = Enum.Font.SourceSansBold
+ButtonName_16.Text = "Script here"
+ButtonName_16.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_16.TextSize = 18.000
+ButtonName_16.TextWrapped = true
+
+RoundedBG_31.CornerRadius = UDim.new(0, 9)
+RoundedBG_31.Name = "RoundedBG"
+RoundedBG_31.Parent = ButtonName_16
+
+ButtonName_17.Name = "ButtonName"
+ButtonName_17.Parent = Page3
+ButtonName_17.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_17.Position = UDim2.new(0.501999974, 10, 1.875, -280)
+ButtonName_17.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_17.ZIndex = 7
+ButtonName_17.Font = Enum.Font.SourceSansBold
+ButtonName_17.Text = "Script here"
+ButtonName_17.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_17.TextSize = 18.000
+ButtonName_17.TextWrapped = true
+
+RoundedBG_32.CornerRadius = UDim.new(0, 9)
+RoundedBG_32.Name = "RoundedBG"
+RoundedBG_32.Parent = ButtonName_17
+
+ButtonName_18.Name = "ButtonName"
+ButtonName_18.Parent = Page3
+ButtonName_18.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_18.Position = UDim2.new(0.254999995, 10, 1.875, -280)
+ButtonName_18.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_18.ZIndex = 7
+ButtonName_18.Font = Enum.Font.SourceSansBold
+ButtonName_18.Text = "Script here"
+ButtonName_18.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_18.TextSize = 18.000
+ButtonName_18.TextWrapped = true
+
+RoundedBG_33.CornerRadius = UDim.new(0, 9)
+RoundedBG_33.Name = "RoundedBG"
+RoundedBG_33.Parent = ButtonName_18
+
+ButtonName_19.Name = "ButtonName"
+ButtonName_19.Parent = Page3
+ButtonName_19.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_19.Position = UDim2.new(0.00400000019, 10, 1.875, -280)
+ButtonName_19.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_19.ZIndex = 7
+ButtonName_19.Font = Enum.Font.SourceSansBold
+ButtonName_19.Text = "Script here"
+ButtonName_19.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_19.TextSize = 18.000
+ButtonName_19.TextWrapped = true
+
+RoundedBG_34.CornerRadius = UDim.new(0, 9)
+RoundedBG_34.Name = "RoundedBG"
+RoundedBG_34.Parent = ButtonName_19
+
+ButtonName_20.Name = "ButtonName"
+ButtonName_20.Parent = Page3
+ButtonName_20.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_20.Position = UDim2.new(0.254999995, 10, 1.27499998, -280)
+ButtonName_20.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_20.ZIndex = 7
+ButtonName_20.Font = Enum.Font.SourceSansBold
+ButtonName_20.Text = "Script here"
+ButtonName_20.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_20.TextSize = 18.000
+ButtonName_20.TextWrapped = true
+
+RoundedBG_35.CornerRadius = UDim.new(0, 9)
+RoundedBG_35.Name = "RoundedBG"
+RoundedBG_35.Parent = ButtonName_20
+
+ButtonName_21.Name = "ButtonName"
+ButtonName_21.Parent = Page3
+ButtonName_21.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_21.Position = UDim2.new(0.00400000019, 10, 1.27499998, -280)
+ButtonName_21.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_21.ZIndex = 7
+ButtonName_21.Font = Enum.Font.SourceSansBold
+ButtonName_21.Text = "Script here"
+ButtonName_21.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_21.TextSize = 18.000
+ButtonName_21.TextWrapped = true
+
+RoundedBG_36.CornerRadius = UDim.new(0, 9)
+RoundedBG_36.Name = "RoundedBG"
+RoundedBG_36.Parent = ButtonName_21
+
+ButtonName_22.Name = "ButtonName"
+ButtonName_22.Parent = Page3
+ButtonName_22.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_22.Position = UDim2.new(0.75999999, 10, 1.27499998, -280)
+ButtonName_22.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_22.ZIndex = 7
+ButtonName_22.Font = Enum.Font.SourceSansBold
+ButtonName_22.Text = "Script here"
+ButtonName_22.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_22.TextSize = 18.000
+ButtonName_22.TextWrapped = true
+
+RoundedBG_37.CornerRadius = UDim.new(0, 9)
+RoundedBG_37.Name = "RoundedBG"
+RoundedBG_37.Parent = ButtonName_22
+
+ButtonName_23.Name = "ButtonName"
+ButtonName_23.Parent = Page3
+ButtonName_23.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_23.Position = UDim2.new(0.75999999, 10, 1.57500005, -280)
+ButtonName_23.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_23.ZIndex = 7
+ButtonName_23.Font = Enum.Font.SourceSansBold
+ButtonName_23.Text = "Script here"
+ButtonName_23.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_23.TextSize = 18.000
+ButtonName_23.TextWrapped = true
+
+RoundedBG_38.CornerRadius = UDim.new(0, 9)
+RoundedBG_38.Name = "RoundedBG"
+RoundedBG_38.Parent = ButtonName_23
+
+ButtonName_24.Name = "ButtonName"
+ButtonName_24.Parent = Page3
+ButtonName_24.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_24.Position = UDim2.new(0.254999995, 10, 1.57500005, -280)
+ButtonName_24.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_24.ZIndex = 7
+ButtonName_24.Font = Enum.Font.SourceSansBold
+ButtonName_24.Text = "Script here"
+ButtonName_24.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_24.TextSize = 18.000
+ButtonName_24.TextWrapped = true
+
+RoundedBG_39.CornerRadius = UDim.new(0, 9)
+RoundedBG_39.Name = "RoundedBG"
+RoundedBG_39.Parent = ButtonName_24
+
+ButtonName_25.Name = "ButtonName"
+ButtonName_25.Parent = Page3
+ButtonName_25.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_25.Position = UDim2.new(0.501999974, 10, 1.57500005, -280)
+ButtonName_25.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_25.ZIndex = 7
+ButtonName_25.Font = Enum.Font.SourceSansBold
+ButtonName_25.Text = "Script here"
+ButtonName_25.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_25.TextSize = 18.000
+ButtonName_25.TextWrapped = true
+
+RoundedBG_40.CornerRadius = UDim.new(0, 9)
+RoundedBG_40.Name = "RoundedBG"
+RoundedBG_40.Parent = ButtonName_25
+
+ButtonName_26.Name = "ButtonName"
+ButtonName_26.Parent = Page3
+ButtonName_26.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_26.Position = UDim2.new(0.00400000019, 10, 1.57500005, -280)
+ButtonName_26.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_26.ZIndex = 7
+ButtonName_26.Font = Enum.Font.SourceSansBold
+ButtonName_26.Text = "Script here"
+ButtonName_26.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_26.TextSize = 18.000
+ButtonName_26.TextWrapped = true
+
+RoundedBG_41.CornerRadius = UDim.new(0, 9)
+RoundedBG_41.Name = "RoundedBG"
+RoundedBG_41.Parent = ButtonName_26
+
+PageNumber_3.Name = "Page Number"
+PageNumber_3.Parent = Page3
+PageNumber_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageNumber_3.BackgroundTransparency = 1.000
+PageNumber_3.Position = UDim2.new(0.428636372, 10, 2.45220423, -280)
+PageNumber_3.Size = UDim2.new(0, 60, 0, 32)
+PageNumber_3.ZIndex = 7
+PageNumber_3.Font = Enum.Font.SourceSansBold
+PageNumber_3.Text = "Page 3"
+PageNumber_3.TextColor3 = Color3.fromRGB(61, 61, 61)
+PageNumber_3.TextSize = 22.000
+PageNumber_3.TextWrapped = true
+
+Page_4.Name = "Page<"
+Page_4.Parent = Page3
+Page_4.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Page_4.BorderSizePixel = 0
+Page_4.Position = UDim2.new(0.786000073, 10, 1.04301071, -280)
+Page_4.Size = UDim2.new(0, 44, 0, 32)
+Page_4.ZIndex = 7
+Page_4.Font = Enum.Font.SourceSansBold
+Page_4.Text = "<"
+Page_4.TextColor3 = Color3.fromRGB(61, 61, 61)
+Page_4.TextSize = 22.000
+Page_4.TextWrapped = true
+
+RoundedBG_42.CornerRadius = UDim.new(0, 9)
+RoundedBG_42.Name = "RoundedBG"
+RoundedBG_42.Parent = Page_4
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.876363635, 10, 0.93225807, -280)
+Close.Size = UDim2.new(0, 44, 0, 32)
+Close.ZIndex = 7
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(61, 61, 61)
+Close.TextSize = 18.000
+Close.TextWrapped = true
+
+RoundedBG_43.CornerRadius = UDim.new(0, 9)
+RoundedBG_43.Name = "RoundedBG"
+RoundedBG_43.Parent = Close
+
+-- Scripts:
+
+local function GTZOE_fake_script() -- GrabAK47.AK-47 
+	local script = Instance.new('LocalScript', GrabAK47)
+
+	GrabAK47.MouseButton1Down:connect(function()
+		local args = {
+			[1] = workspace.Prison_ITEMS.giver:FindFirstChild("AK-47").ITEMPICKUP
+		}
+	
+		workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(GTZOE_fake_script)()
+local function MHFGC_fake_script() -- TpSafePlace.Safe Place 
+	local script = Instance.new('LocalScript', TpSafePlace)
+
+	TpSafePlace.MouseButton1Down:connect(function()	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19456.1074, -213.206375, 989.955627, 0.645930648, -5.46522045e-08, 0.763396144, 5.9009384e-08, 1, 2.16614087e-08, -0.763396144, 3.10557695e-08, 0.645930648)
+	end)
+end
+coroutine.wrap(MHFGC_fake_script)()
+local function HMQCARZ_fake_script() -- FastM9.FastM9 
+	local script = Instance.new('LocalScript', FastM9)
+
+	FastM9.MouseButton1Down:connect(function()
+		local Player = game:GetService('Players').LocalPlayer
+		local Backpack = Player.Backpack
+	
+		local gun = Backpack.M9
+	
+		gs = require(gun.GunStates)
+	
+	--[[        Remove this line
+	print()
+	print('Before')
+	for index, v in pairs(gs) do
+	    print(index, v)
+	end
+	]]          -- this one
+	
+		gs.MaxAmmo = math.huge      -- math.huge is basically Infinite in Lua
+		gs.CurrentAmmo = math.huge
+		gs.AutoFire = true          -- true = on false = off
+		gs.Spread = 0
+		gs.FireRate = 0.1 
+		gs.Range = math.huge
+		gs.Damage = 300
+	
+	--[[    this one
+	print()
+	print('After')
+	for index, v in pairs(gs) do
+	    print(index, v)
+	end
+	]]      -- and this one if you want it to print out the differences
+	end)
+end
+coroutine.wrap(HMQCARZ_fake_script)()
+local function CEPDEL_fake_script() -- TpCrimBase.CrimBase 
+	local script = Instance.new('LocalScript', TpCrimBase)
+
+	TpCrimBase.MouseButton1Down:connect(function()	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-975.327332, 109.323792, 2061.51025, 0.0187366493, 8.84510953e-08, -0.999824464, -4.35397638e-08, 1, 8.76506903e-08, 0.999824464, 4.18898409e-08, 0.0187366493)
+	end)
+end
+coroutine.wrap(CEPDEL_fake_script)()
+local function CPMGQIL_fake_script() -- ButtonName_2.Local Script 
+	local script = Instance.new('LocalScript', ButtonName_2)
+
+	GrabKeycard.MouseButton1Down:connect(function()
+		local args = {
+			[1] = workspace.Prison_ITEMS.single:FindFirstChild("Key card").ITEMPICKUP
+		}
+	
+		workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(CPMGQIL_fake_script)()
+local function NKAV_fake_script() -- FastRemington870.FastRemington870 
+	local script = Instance.new('LocalScript', FastRemington870)
+
+	FastRemington870.MouseButton1Down:connect(function()
+		local Player = game:GetService('Players').LocalPlayer
+		local Backpack = Player.Backpack
+	
+		local gun = Backpack['Remington 870']
+	
+		gs = require(gun.GunStates)
+	
+	--[[        Remove this line
+	print()
+	print('Before')
+	for index, v in pairs(gs) do
+	    print(index, v)
+	end
+	]]          -- this one
+	
+		gs.MaxAmmo = math.huge      -- math.huge is basically Infinite in Lua
+		gs.CurrentAmmo = math.huge
+		gs.AutoFire = true          -- true = on false = off
+		gs.Spread = 0
+		gs.FireRate = 0.1 
+		gs.Range = math.huge
+		gs.Damage = 300
+	
+	--[[    this one
+	print()
+	print('After')
+	for index, v in pairs(gs) do
+	    print(index, v)
+	end
+	]]      -- and this one if you want it to print out the differences
+	end)
+end
+coroutine.wrap(NKAV_fake_script)()
+local function UGYCL_fake_script() -- FastAK47.FastAK47 
+	local script = Instance.new('LocalScript', FastAK47)
+
+	FastAK47.MouseButton1Down:connect(function()
+		local Player = game:GetService('Players').LocalPlayer
+		local Backpack = Player.Backpack
+	
+		local gun = Backpack['AK-47']
+	
+		gs = require(gun.GunStates)
+	
+	--[[        Remove this line
+	print()
+	print('Before')
+	for index, v in pairs(gs) do
+	    print(index, v)
+	end
+	]]          -- this one
+	
+		gs.MaxAmmo = math.huge      -- math.huge is basically Infinite in Lua
+		gs.CurrentAmmo = math.huge
+		gs.AutoFire = true          -- true = on false = off
+		gs.Spread = 0
+		gs.FireRate = 0.1 
+		gs.Range = math.huge
+		gs.Damage = 300
+	
+	--[[    this one
+	print()
+	print('After')
+	for index, v in pairs(gs) do
+	    print(index, v)
+	end
+	]]      -- and this one if you want it to print out the differences
+	end)
+end
+coroutine.wrap(UGYCL_fake_script)()
+local function TLXQX_fake_script() -- GrabRemington870.Remington870 
+	local script = Instance.new('LocalScript', GrabRemington870)
+
+	GrabRemington870.MouseButton1Down:connect(function()
+			local args = {
+			[1] = workspace.Prison_ITEMS.giver:FindFirstChild("Remington 870").ITEMPICKUP
+		}
+	
+		workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(TLXQX_fake_script)()
+local function IDCM_fake_script() -- Page.LocalScript 
+	local script = Instance.new('LocalScript', Page)
+
+	local function findPlayer(name)
+		name = name:lower()
+		if name == 'me' then
+			return game:GetService'Players'.LocalPlayer
+		end
+		for i,v in pairs(game:GetService'Players':GetPlayers()) do
+			if v.Name:lower():find(name) == 1 then
+				return v
+			end
+		end
+	end
+	
+	if(_G.TweenDB==nil)then
+		_G.TweenDB=false
+	end
+	
+	local currpage = script.Parent.Parent
+	local nextpage = script.Parent.Parent.Parent:WaitForChild"Page2"
+	script.Parent.MouseButton1Click:connect(function()
+		if(_G.TweenDB)then return end
+		_G.TweenDB=true
+		nextpage.Visible=true
+		currpage.Visible=true
+		nextpage.Position = UDim2.new(1,0,.3,0)
+		currpage:TweenPosition(UDim2.new(-1,0,.3,0),Enum.EasingDirection.In,Enum.EasingStyle.Back,.6,true)
+		wait(.4)
+		nextpage:TweenPosition(UDim2.new(0,0,.3,0),Enum.EasingDirection.Out,Enum.EasingStyle.Back,.5,true)
+		wait(.5)
+		_G.TweenDB=false
+	end)
+end
+coroutine.wrap(IDCM_fake_script)()
+local function NSBVTWP_fake_script() -- TpYard.Yard 
+	local script = Instance.new('LocalScript', TpYard)
+
+	TpYard.MouseButton1Down:connect(function()	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(775.623901, 97.9999466, 2479.81299, 0.997827709, 0.00287495996, -0.0658152401, 1.60201115e-08, 0.999047279, 0.0436409116, 0.0658780038, -0.0435461104, 0.996877015)
+	end)
+end
+coroutine.wrap(NSBVTWP_fake_script)()
+local function SYHJSN_fake_script() -- GrabM9.M9 
+	local script = Instance.new('LocalScript', GrabM9)
+
+	GrabM9.MouseButton1Down:connect(function()
+		local args = {
+			[1] = workspace.Prison_ITEMS.giver.M9.ITEMPICKUP
+		}
+	
+		workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(SYHJSN_fake_script)()
+local function BBUJLB_fake_script() -- TpArmory.Armory 
+	local script = Instance.new('LocalScript', TpArmory)
+
+	TpArmory.MouseButton1Down:connect(function()	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(834.949036, 99.9900055, 2314.54468, 0.0506527126, -4.10590353e-08, 0.998716354, 2.99822056e-09, 1, 4.09597476e-08, -0.998716354, 9.19649579e-10, 0.0506527126)
+	end)
+end
+coroutine.wrap(BBUJLB_fake_script)()
+local function SWLTR_fake_script() -- Page_2.LocalScript 
+	local script = Instance.new('LocalScript', Page_2)
+
+	local function findPlayer(name)
+		name = name:lower()
+		if name == 'me' then
+			return game:GetService'Players'.LocalPlayer
+		end
+		for i,v in pairs(game:GetService'Players':GetPlayers()) do
+			if v.Name:lower():find(name) == 1 then
+				return v
+			end
+		end
+	end
+	
+	if(_G.TweenDB==nil)then
+		_G.TweenDB=false
+	end
+	
+	local currpage = script.Parent.Parent
+	local nextpage = script.Parent.Parent.Parent:WaitForChild"Page1"
+	script.Parent.MouseButton1Click:connect(function()
+		if(_G.TweenDB)then return end
+		_G.TweenDB=true
+		nextpage.Visible=true
+		currpage.Visible=true
+		nextpage.Position = UDim2.new(-1,0,.3,0)
+		currpage:TweenPosition(UDim2.new(1,0,.3,0),Enum.EasingDirection.In,Enum.EasingStyle.Back,.6,true)
+		wait(.4)
+		nextpage:TweenPosition(UDim2.new(0,0,.3,0),Enum.EasingDirection.Out,Enum.EasingStyle.Back,.5,true)
+		wait(.5)
+		_G.TweenDB=false
+	end)
+end
+coroutine.wrap(SWLTR_fake_script)()
+local function QBRST_fake_script() -- Page_3.LocalScript 
+	local script = Instance.new('LocalScript', Page_3)
+
+	local function findPlayer(name)
+		name = name:lower()
+		if name == 'me' then
+			return game:GetService'Players'.LocalPlayer
+		end
+		for i,v in pairs(game:GetService'Players':GetPlayers()) do
+			if v.Name:lower():find(name) == 1 then
+				return v
+			end
+		end
+	end
+	
+	if(_G.TweenDB==nil)then
+		_G.TweenDB=false
+	end
+	
+	local currpage = script.Parent.Parent
+	local nextpage = script.Parent.Parent.Parent:WaitForChild"Page3"
+	script.Parent.MouseButton1Click:connect(function()
+		if(_G.TweenDB)then return end
+		_G.TweenDB=true
+		nextpage.Visible=true
+		currpage.Visible=true
+		nextpage.Position = UDim2.new(1,0,.3,0)
+		currpage:TweenPosition(UDim2.new(-1,0,.3,0),Enum.EasingDirection.In,Enum.EasingStyle.Back,.6,true)
+		wait(.4)
+		nextpage:TweenPosition(UDim2.new(0,0,.3,0),Enum.EasingDirection.Out,Enum.EasingStyle.Back,.5,true)
+		wait(.5)
+		_G.TweenDB=false
+	end)
+end
+coroutine.wrap(QBRST_fake_script)()
+local function QGTZEVC_fake_script() -- Page_4.LocalScript 
+	local script = Instance.new('LocalScript', Page_4)
+
+	local function findPlayer(name)
+		name = name:lower()
+		if name == 'me' then
+			return game:GetService'Players'.LocalPlayer
+		end
+		for i,v in pairs(game:GetService'Players':GetPlayers()) do
+			if v.Name:lower():find(name) == 1 then
+				return v
+			end
+		end
+	end
+	
+	if(_G.TweenDB==nil)then
+		_G.TweenDB=false
+	end
+	
+	local currpage = script.Parent.Parent
+	local nextpage = script.Parent.Parent.Parent:WaitForChild"Page2"
+	script.Parent.MouseButton1Click:connect(function()
+		if(_G.TweenDB)then return end
+		_G.TweenDB=true
+		nextpage.Visible=true
+		currpage.Visible=true
+		nextpage.Position = UDim2.new(-1,0,.3,0)
+		currpage:TweenPosition(UDim2.new(1,0,.3,0),Enum.EasingDirection.In,Enum.EasingStyle.Back,.6,true)
+		wait(.4)
+		nextpage:TweenPosition(UDim2.new(0,0,.3,0),Enum.EasingDirection.Out,Enum.EasingStyle.Back,.5,true)
+		wait(.5)
+		_G.TweenDB=false
+	end)
+end
+coroutine.wrap(QGTZEVC_fake_script)()
+local function QJFGGLC_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.TextButton.Visible = true
+	end)
+end
+coroutine.wrap(QJFGGLC_fake_script)()
+local function MXOM_fake_script() -- PrisonLife.Draggable 
+	local script = Instance.new('LocalScript', PrisonLife)
+
+	frame = script.Parent.Main
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(MXOM_fake_script)()
